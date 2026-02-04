@@ -2,7 +2,6 @@ import cv2
 
 # Baca gambar
 img = cv2.imread("example\img\img.jpg")
-
 if img is None:
     print("Gambar tidak ditemukan")
     exit()
