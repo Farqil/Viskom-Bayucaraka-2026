@@ -31,7 +31,7 @@ Saturation: kejenuhan warna
 Value: tingkat kecerahan
 HSV sangat berguna untuk deteksi warna, karena lebih stabil terhadap perubahan cahaya dibanding RGB/BGR.
 
-### 🛠️ Instalasi & Setup
+### Instalasi & Setup
 
 ### 1. Cek Python
 Jalankan di terminal / command prompt:
@@ -44,7 +44,7 @@ $ python --version
 $ pip install opencv-python numpy
 ```
 
-### 1️⃣ Membaca Citra
+### 1. Membaca Citra
 
 ### Tujuan
 - Membaca file gambar menggunakan OpenCV  
@@ -86,7 +86,7 @@ Gambar dibaca menggunakan fungsi `cv2.imread()` dan disimpan sebagai array NumPy
 - Fungsi ini mengembalikan nilai `True` jika penyimpanan berhasil, dan `False` jika gagal.  
 - Fungsi ini berguna untuk menyimpan hasil pemrosesan citra, misalnya setelah dilakukan thresholding, deteksi kontur, atau penambahan bounding box.  
 
-## 2️⃣ Thresholding Warna
+## 2. Thresholding Warna
 
 ### Tujuan
 - Melakukan segmentasi warna pada citra
@@ -115,7 +115,7 @@ Citra awal dikonversi dari BGR ke HSV menggunakan `cv2.cvtColor()`. Ruang warna 
 - Operasi AND bitwise akan mempertahankan piksel yang sesuai dengan mask.
 - Biasanya `src1` dan `src2` adalah citra yang sama, dan `mask` adalah hasil `inRange()`.
 
-## 3️⃣ Contour Detection
+## 3. Contour Detection
 
 ### Tujuan
 - Mendeteksi batas/bentuk objek pada citra biner
@@ -142,7 +142,7 @@ Contour dideteksi dari citra biner hasil thresholding. Fungsi `cv2.findContours(
 - `color` menentukan warna garis kontur.
 - `thickness` menentukan ketebalan garis.
 
-## 4️⃣ Bounding Box
+## 4. Bounding Box
 
 ### Tujuan
 - Menentukan posisi dan ukuran objek yang terdeteksi
