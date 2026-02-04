@@ -1,5 +1,8 @@
 # Visi Komputer dengan OpenCV
 
+### Dokumentasi
+https://docs.opencv.org/4.x/index.html
+
 ### Apa itu OpenCV?
 OpenCV (Open Source Computer Vision Library) adalah library open-source yang digunakan untuk pengolahan citra dan visi komputer. OpenCV menyediakan berbagai fungsi siap pakai untuk:
 - Membaca dan menulis gambar atau video
