@@ -44,26 +44,6 @@ $ python --version
 $ pip install opencv-python numpy
 ```
 
-## 📂 Struktur Folder
-
-Struktur folder project:
-
-    .
-    ├── images/
-    │   └── sample.jpg
-    ├── 01_read_image.py
-    ├── 02_thresholding.py
-    ├── 03_contour_detection.py
-    ├── 04_bounding_box.py
-    └── README.md
-
-Keterangan:
-- images/ : menyimpan gambar input
-- 01_read_image.py : membaca dan menampilkan citra
-- 02_thresholding.py : segmentasi warna dengan thresholding
-- 03_contour_detection.py : deteksi kontur objek
-- 04_bounding_box.py : menggambar bounding box pada objek
-
 ### 1️⃣ Membaca Citra
 
 ### Tujuan
@@ -188,14 +168,3 @@ Dari kontur yang telah diperoleh, dapat dihitung kotak pembatas menggunakan `cv2
 - `pt2` adalah titik kanan bawah (x+w, y+h).
 - `color` menentukan warna garis kotak.
 - `thickness` menentukan ketebalan garis.
-
-## ▶️ Cara Menjalankan
-
-Masuk ke folder project, lalu jalankan:
-
-    $ python 01_read_image.py
-    $ python 02_thresholding.py
-    $ python 03_contour_detection.py
-    $ python 04_bounding_box.py
-
-Pastikan file gambar tersedia di folder images/
