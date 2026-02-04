@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Baca gambar
-img = cv2.imread("img/img.jpg")
+img = cv2.imread("example\img\img.jpg")
 if img is None:
     print("Gambar tidak ditemukan")
     exit()

@@ -1,8 +1,7 @@
 import cv2
 
 # Baca gambar
-image_path = "img/img.jpg"
-img = cv2.imread(image_path)
+img = cv2.imread("example\img\img.jpg")
 
 if img is None:
     print("Gambar tidak ditemukan")
